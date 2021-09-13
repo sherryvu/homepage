@@ -1,0 +1,35 @@
+.top_section {
+    background-color: white;
+    text-align: center;
+    padding: 20px
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6CC4DC;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #9DE3F6;
+}
+.container{
+    float: left;
+    width: 25%;
+    border-right: bisque solid;
+    padding: 15px 30px;
+}
+.more_info_right{
+    float: right;
+    width: 65%;
+    padding-left: 45px;
+}
