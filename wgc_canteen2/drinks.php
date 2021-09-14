@@ -19,6 +19,7 @@ $this_drink_record = mysqli_fetch_assoc($this_drink_result);
 
 <html lang="en">
 <head>
+    <!--this is a comment-->
     <title> WGC CANTEEN </title>
     <meta charset="utf-8">
     <link rel='stylesheet' type='text/css' href='style.css'>
