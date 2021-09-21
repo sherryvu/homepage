@@ -39,7 +39,7 @@ $this_drink_record = mysqli_fetch_assoc($this_drink_result);
 <nav>
     <ul>
         <li> <a href='drinks.php'> Drinks </a></li>
-        <li> <a href='food.php'> Foods </a></li>
+        <li> <a href='../wgc_canteen3/food.php'> Foods </a></li>
         <li> <a href='fruit.php'> Fruits </a></li>
         <li> <a href='snack.php'> Snacks </a></li>
     </ul>

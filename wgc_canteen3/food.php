@@ -37,7 +37,7 @@ $this_food_record = mysqli_fetch_assoc($this_food_result);
 
 <nav>
     <ul>
-        <li> <a href='drinks.php'> Drinks </a></li>
+        <li> <a href='../wgc_canteen2/drinks.php'> Drinks </a></li>
         <li> <a href='food.php'> Foods </a></li>
         <li> <a href='fruit.php'> Fruits </a></li>
         <li> <a href='snack.php'> Snacks </a></li>
@@ -54,7 +54,7 @@ $this_food_record = mysqli_fetch_assoc($this_food_result);
             <!--option-->
             <?php
             while($all_foods_record = mysqli_fetch_assoc($all_foods_result)){
-                echo "<option value = '". $all_foods_record['FoodID'] . "'>'";
+                echo "<option value = '". $all_foods_record['FoodID'] . "'>";
                 echo $all_foods_record['Food'];
                 echo "</option>";
             }
