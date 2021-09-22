@@ -22,7 +22,7 @@ else{
     </div>
 </header>
 <nav>
-    <div class="nav">
+    <div class="navbar">
         <ul>
             <li><a href="index.php">Home</a></li>
             <li> <a href='menu.php'> Our Menu </a></li>
@@ -72,7 +72,7 @@ else{
                       for the past 20 years.</span>
             </p>
             <h3> Our location</h3>
-            <span><img src='school_map.jpg' alt='WGC Location' width='650' length='360' ></span>
+            <span><img src='school_map.jpg' alt='WGC Location' width='850' length='400' ></span>
             
         </div>
 
