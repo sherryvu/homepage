@@ -1,4 +1,6 @@
-@import url('https://fonts.google.com/specimen/Rampart+One?query=Rampart+One#standard-styles');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Tinos:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rampart+One&family=Tinos:wght@700&display=swap');
 .top_section {
     background-color: white;
     text-align: center;
@@ -9,7 +11,7 @@
 }
 .navbar{
     width: 100%;
-    background-color: #6CC4DC;
+    background-color: #3F92B7;
     overflow: auto;
 }
 .navbar a{
@@ -17,12 +19,14 @@
     padding: 11px;
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     width: 33%;
     text-align: center;
+    overflow: auto;
+    font-family: 'Tinos', serif;
 }
 .navbar a:hover{
-    background-color: #9DE3F6;
+    background-color: #6CC4DC;
 }
 .navbar a.active{
     background-color: white;
@@ -41,19 +45,39 @@ li{
 h1{
     font-size: 50px;
     text-align: center;
-    font-family: Rampart One;
-    color: black;
+    font-family: 'Rampart One', cursive;
+    color: #48829E;
     margin: 0;
     padding: 50px;
 }
+.center{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered a{
+    color: white;
+    font-family:'Tinos', serif;
+}
+h3{
+    font-size: 35px;
+    font-family: 'Fredoka One', cursive;
+    color: #AACDE5;
+}
 .container{
     float: left;
-    width: 25%;
-    border-right: bisque solid;
+    width: 30%;
+    border-color: dodgerblue;
     padding: 15px 30px;
 }
 .more_info_right{
     float: right;
-    width: 65%;
+    width: 70%;
     padding-left: 45px;
 }
