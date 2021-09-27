@@ -1,3 +1,4 @@
+@import url('https://fonts.google.com/specimen/Rampart+One?query=Rampart+One#standard-styles');
 .top_section {
     background-color: white;
     text-align: center;
@@ -36,6 +37,14 @@ li{
         width: 100%;
         text-align: left;
     }
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Rampart One;
+    color: black;
+    margin: 0;
+    padding: 50px;
 }
 .container{
     float: left;
