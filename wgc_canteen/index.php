@@ -30,7 +30,11 @@ else{
         </ul>
     </div>
 </nav>
-
+<div class="center">
+    <img src="menu_picture.jpg" alt="Menu" style="width:100%; height:400px">
+    <div class="top-centered">Menu</div>
+    <div class="centered"><a href="menu.php">View Our Menu</a></div>
+</div>
 </body>
 <main>
     <section class="more_info">
@@ -48,7 +52,7 @@ else{
                 <span>Friday:</span>
                 12:00am - 1:00pm <br>
             </p>
-            <h3> Contact Us </h3>
+            <h3> Contact Us: </h3>
             <p><span>Email:</span>
                 wgc_canteen@wgc.school.nz <br>
                 <span>Phone number:</span>
@@ -71,7 +75,7 @@ else{
                       food as well. It's a totally successful school canteen
                       for the past 20 years.</span>
             </p>
-            <h3> Our location</h3>
+            <h3> Our location: </h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.536516319144!2d174.77800201577773!3d-41.27542644765845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38ae2f27710d0d%3A0x2d0763d38f00974b!2sWellington%20Girls&#39;%20College!5e0!3m2!1sen!2snz!4v1632725135227!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
         </div>
