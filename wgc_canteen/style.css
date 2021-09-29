@@ -1,140 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Tinos:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rampart+One&family=Tinos:wght@700&display=swap');
 .top_section {
     background-color: white;
     text-align: center;
     padding: 20px
 }
-*{
-    box-sizing: border-box;
-}
-.navbar{
-    width: 100%;
-    background-color: #3F92B7;
-    overflow: auto;
-    text-align: center;
-}
-.navbar a{
-    float: left;
-    padding: 11px;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    width: 33%;
-    text-align: center;
-    overflow: auto;
-    font-family: 'Tinos', serif;
-}
-.navbar a:hover{
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #6CC4DC;
 }
-.navbar a.active{
-    background-color: white;
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
 }
-li{
-    list-style: none;
-}
-@media screen and (max-width: 500px) {
-    .navbar a {
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
+li a:hover{
+    background-color: #9DE3F6;
 }
 h1{
-    font-size: 50px;
     text-align: center;
-    font-family: 'Rampart One', cursive;
-    color: #48829E;
-    margin: 0;
-    padding: 50px;
-}
-.center{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.centered{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.centered a{
-    color: white;
-    font-family:'Tinos', serif;
-}
-h3{
-    font-size: 35px;
-    font-family: 'Fredoka One', cursive;
-    color: #AACDE5;
-}
-h4{
-    font-size: 20px;
-    font-family: 'Fredoka One', cursive;
-    color: #AACDE5;
 }
 .container{
     float: left;
-    width: 30%;
-    border-color: dodgerblue;
+    width: 25%;
+    border-right: bisque solid;
     padding: 15px 30px;
 }
 .more_info_right{
     float: right;
-    width: 70%;
+    width: 65%;
     padding-left: 45px;
 }
-.navbar2 {
-    width: 100%;
-    background-color: #3F92B7;
-    overflow: auto;
-}
 
-.navbar2 a {
-    float: left;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    width: 25%;
-    text-align: center;
-    font-family: 'Tinos', serif;
-}
-
-.navbar2 a:hover {
-    background-color: #6CC4DC;
-}
-
-.navbar2 a.active {
-    background-color:white;
-}
-
-@media screen and (max-width: 500px) {
-    .navbar2 a {
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
-}
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
-    text-align: right;
+    text-align: center;
 }
 .text_type{
     text-align: center;
-    font-size: 25px;
-    font-family: 'Fredoka One', cursive;
-    color: #AACDE5;
+    font-size: 20px;
 }
 .mySlides {
     display: none;
-    text-align: right;
 }
 
 .prev, .next {
@@ -162,8 +76,8 @@ h4{
 }
 
 .text {
-    color: #48829E;
-    font-size: 20px;
+    color: #f2f2f2;
+    font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -171,6 +85,13 @@ h4{
     text-align: center;
 }
 
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
 
 .dot {
     cursor: pointer;
@@ -181,7 +102,6 @@ h4{
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-
 }
 
 .active, .dot:hover {
@@ -205,3 +125,25 @@ h4{
     from {opacity: .4}
     to {opacity: 1}
 }
+.main{
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
